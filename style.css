@@ -47,6 +47,10 @@ h2 {
 .flex {
   display: flex;
 }
+.center {
+  align-items: center;
+  gap: 3px;
+}
 
 .flex.main {
   margin-top: 20px;
@@ -82,9 +86,6 @@ span {
 
 .project {
   margin-top: 10px;
-}
-.svg {
-  align-self: center;
 }
 ul {
   margin: 2px 0 0 10px;

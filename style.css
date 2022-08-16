@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+}
+
+body {
+  /* font-family: sans-serif; */
+  height: 100vh;
+  color: #333;
+  display: grid;
+  place-items: center;
+  background: #f3f1f1;
+}
+a:active,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+  color: #0096c7;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+h2 {
+  text-decoration: underline;
+  /* border-bottom: 1px solid ; */
+}
+#paper {
+  border-top: 5px solid #0096c7;
+  width: 700px;
+  height: 90vh;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.048);
+  padding: 55px 45px;
+  box-sizing: border-box;
+  overflow-y: scroll;
+  /* overflow: hidden; */
+}
+
+#name {
+  text-align: center;
+  border: none;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.main {
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.col {
+  flex-direction: column;
+  gap: 3px;
+}
+
+span {
+  font-weight: 400;
+}
+
+.section {
+  margin-top: 20px;
+  width: 100%;
+}
+
+#skills .flex {
+  margin-top: 15px;
+  gap: 15px;
+  /* justify-content: space-around; */
+  flex-wrap: wrap;
+}
+
+#skills .flex div {
+  padding: 6px;
+  border-radius: 3px;
+  background: #eee;
+}
+
+.project {
+  margin-top: 10px;
+}
+ul {
+  margin: 2px 0 0 10px;
+  /* text-indent: 5px; */
+}
+.all {
+  margin-top: 10px;
+}
+li {
+  margin-top: 3px;
+}
+
+.hackerrank div {
+  display: flex;
+  gap: 10px;
+}
+
+/* scrollbar width */
+::-webkit-scrollbar {
+  width: 0px;
+}

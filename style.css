@@ -1,10 +1,15 @@
+:root {
+  --ResumeLinks:#c54242;
+  --skillsBG: #eee;
+}
+
 * {
   margin: 0;
 }
 
 body {
   /* font-family: sans-serif; */
-  /* border-top: 5px solid #0096c7; */
+  /* border-top: 5px solid var(--ResumeLinks); */
   height: 100vh;
   color: #333;
   display: grid;
@@ -16,7 +21,7 @@ a:hover,
 a:link,
 a:visited {
   text-decoration: none;
-  color: #0096c7;
+  color: var(--ResumeLinks);
 }
 
 .bold {
@@ -28,7 +33,8 @@ h2 {
   /* border-bottom: 1px solid ; */
 }
 #paper {
-  border-top: 5px solid #0096c7;
+  border-top: 5px solid var(--ResumeLinks);
+  font-size: 16px;
   width: 700px;
   height: 100%;
   background: #fff;
@@ -68,7 +74,7 @@ span {
 }
 
 .section {
-  margin-top: 20px;
+  margin-top: 25px;
   width: 100%;
 }
 
@@ -82,7 +88,7 @@ span {
 #skills .flex div {
   padding: 6px;
   border-radius: 3px;
-  background: #eee;
+  background: var(--skillsBG);
 }
 
 .project {

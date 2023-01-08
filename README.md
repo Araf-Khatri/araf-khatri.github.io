@@ -1,1 +1,1 @@
-made custom resume template using HTML & CSS.
+> made custom resume template using HTML & CSS.

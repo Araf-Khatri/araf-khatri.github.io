@@ -68,7 +68,7 @@ h2 {
 }
 
 .flex.main {
-  margin-top: 20px;
+  margin-top: 15px;
   justify-content: space-between;
 }
 
@@ -82,13 +82,13 @@ span {
 }
 
 .section {
-  margin-top: 20px;
+  margin-top: 15px;
   width: 100%;
 }
 
 #skills .flex {
   margin-top: 10px;
-  gap: 15px;
+  gap: 10px;
   /* justify-content: space-around; */
   flex-wrap: wrap;
 }
@@ -100,10 +100,8 @@ span {
 }
 
 .project {
-  margin-top: 4px;
-}
-.project {
-  margin-bottom: 10px;
+  margin-top: 6px;
+  margin-bottom: 15px;
 }
 ul {
   margin: 2px 0 0 10px;

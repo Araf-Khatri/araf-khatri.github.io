@@ -7,6 +7,10 @@
   margin: 0;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   /* font-family: sans-serif; */
   /* border-top: 5px solid var(--ResumeLinks); */
@@ -15,11 +19,13 @@ body {
   display: grid;
   place-items: center;
   background: #f3f1f1;
+  font-size: 1.6rem;
 }
+a, 
 a:active,
 a:hover,
 a:link,
-a:visited {
+a:visited,i {
   text-decoration: none;
   color: var(--ResumeLinks);
 }
@@ -30,18 +36,19 @@ a:visited {
 }
 
 h2 {
-  text-decoration: underline;
+  border-bottom: 2px solid;
+  /* text-decoration: underline; */
   /* border-bottom: 1px solid ; */
 }
 .stack {
   color: #333;
   margin-left: auto;
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 #paper {
   border-top: 5px solid var(--ResumeLinks);
-  font-size: 16px;
-  width: 700px;
+  /* font-size: 16px; */
+  width: 810px;
   height: 100%;
   /* height: 100vh; */
   /* aspect-ratio: 1/ 1.4142; */
@@ -57,6 +64,16 @@ h2 {
   text-align: center;
   border: none;
   text-decoration: none;
+}
+
+.experience h4 {
+  padding-left: 10px;
+}
+
+.experience-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .flex {
@@ -82,13 +99,13 @@ span {
 }
 
 .section {
-  margin-top: 15px;
+  margin-top: 2.4rem;
   width: 100%;
 }
 
 #skills .flex {
-  margin-top: 10px;
-  gap: 10px;
+  margin-top: 1rem;
+  gap: 1rem;
   /* justify-content: space-around; */
   flex-wrap: wrap;
 }
@@ -101,10 +118,11 @@ span {
 
 .project {
   margin-top: 6px;
-  margin-bottom: 15px;
+  margin-bottom: 1.3rem;
 }
 ul {
   margin: 2px 0 0 10px;
+  padding-inline-start: 20px;
   /* text-indent: 5px; */
 }
 ul li:first-child {
@@ -112,7 +130,7 @@ ul li:first-child {
 }
 
 .all {
-  margin-top: 10px;
+  margin-top: 1rem;
 }
 li {
   margin-top: 3px;
@@ -120,7 +138,7 @@ li {
 
 .hackerrank div {
   display: flex;
-  gap: 10px;
+  gap: 1rem;
 }
 
 /* scrollbar width */

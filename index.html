@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Araf Khatri Resume</title>
+    <style>
+      body {
+        font-family: Serif !important;
+        color: #252525;
+      }
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            aspectRatio: {
+              resume: "1 / 1.4142",
+            },
+            gridTemplateColumns: {
+              "1b3": "1.2fr 2fr",
+              contact: "18px 1fr",
+            },
+            colors: {
+              "primary-900": "#075985",
+              "primary-1000": "#0c4a6e",
+              // "primary-900": "#eeeeee",
+              // "primary-1000": "#dedede"
+              "primary-100": "#f9fcff",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="text-base">
+    <div class="grid place-items-center h-screen w-screen bg-gray-500">
+      <div
+        class="aspect-resume h-screen bg-white border-t-4 border-primary-900"
+      >
+        <div class="flex justify-between p-6">
+          <div class="flex flex-col">
+            <p class="text-2xl font-medium">Araf Ibrahim Khatri</p>
+            <p class="text-sm text-primary-900">Fullstack Developer</p>
+          </div>
+
+          <div id="personal-data" class="flex flex-col items-end gap-1"></div>
+        </div>
+
+        <div class="grid grid-cols-1b3">
+          <div class="h-screen px-5 pr-2">
+            <div class="skills">
+              <div class="border-b border-black">
+                <p class="text-lg leading-5">SKILLS</p>
+              </div>
+              <div>
+                <div class="border-b border-black w-fit">
+                  <p class="text-base font">HTML</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="h-screen bg-blue-300 pl-3">
+            <p>ab</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -27,14 +27,18 @@
             },
             gridTemplateColumns: {
               "1b3": "1.2fr 2fr",
-              contact: "18px 1fr",
+              contact: "18px 1fr ",
             },
             colors: {
               "primary-900": "#075985",
               "primary-1000": "#0c4a6e",
               // "primary-900": "#eeeeee",
               // "primary-1000": "#dedede"
+              "primary-200": "#e6eef3",
               "primary-100": "#f9fcff",
+            },
+            width: {
+              212: "54rem",
             },
           },
         },
@@ -42,33 +46,30 @@
     </script>
   </head>
   <body class="text-base">
-    <div class="grid place-items-center h-screen w-screen bg-gray-500">
-      <div
-        class="aspect-resume h-screen bg-white border-t-4 border-primary-900"
-      >
+    <div class="grid place-items-center w-screen bg-gray-500">
+      <div class="aspect-resume w-212 bg-white border-t-4 border-primary-900">
         <div class="flex justify-between p-6">
           <div class="flex flex-col">
-            <p class="text-2xl font-medium">Araf Ibrahim Khatri</p>
-            <p class="text-sm text-primary-900">Fullstack Developer</p>
+            <p class="text-2xl font-semibold">Araf Ibrahim Khatri</p>
+            <p class="text-base text-primary-900 font-medium">
+              Fullstack Developer
+            </p>
           </div>
 
           <div id="personal-data" class="flex flex-col items-end gap-1"></div>
         </div>
 
         <div class="grid grid-cols-1b3">
-          <div class="h-screen px-5 pr-2">
-            <div class="skills">
+          <div class="px-5 pr-2">
+            <div class="flex flex-col gap-3 skills">
               <div class="border-b border-black">
-                <p class="text-lg leading-5">SKILLS</p>
+                <p class="text-lg leading-5 font-semibold">SKILLS</p>
               </div>
-              <div>
-                <div class="border-b border-black w-fit">
-                  <p class="text-base font">HTML</p>
-                </div>
-              </div>
+              <ul id="skills-data" class="flex gap-3 flex-wrap list-disc list-inside">
+              </ul>
             </div>
           </div>
-          <div class="h-screen bg-blue-300 pl-3">
+          <div class="bg-blue-300 pl-3">
             <p>ab</p>
           </div>
         </div>

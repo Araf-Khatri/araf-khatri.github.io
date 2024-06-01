@@ -1,5 +1,5 @@
 :root {
-  --ResumeLinks:#d56f50;
+  --ResumeLinks: #d56f50;
   --skillsBG: #eee;
 }
 
@@ -21,15 +21,15 @@ body {
   background: #f3f1f1;
   font-size: 1.6rem;
 }
-a, 
+a,
 a:active,
 a:hover,
 a:link,
-a:visited,i {
+a:visited,
+i {
   text-decoration: none;
   color: var(--ResumeLinks);
 }
-
 
 .bold {
   font-weight: 600;
@@ -139,6 +139,16 @@ li {
 .hackerrank div {
   display: flex;
   gap: 1rem;
+}
+
+.education-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education span {
+  display: block;
 }
 
 /* scrollbar width */

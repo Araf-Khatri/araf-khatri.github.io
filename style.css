@@ -66,10 +66,6 @@ h2 {
   text-decoration: none;
 }
 
-.experience h4 {
-  padding-left: 10px;
-}
-
 .experience-flex {
   display: flex;
   align-items: center;
@@ -79,8 +75,11 @@ h2 {
 .flex {
   display: flex;
 }
+
 .center {
   align-items: center;
+}
+.gap-3px {
   gap: 3px;
 }
 

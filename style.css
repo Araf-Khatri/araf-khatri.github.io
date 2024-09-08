@@ -65,6 +65,11 @@ h2 {
   border: none;
   text-decoration: none;
 }
+.summary-content {
+  margin-top: 1rem;
+  text-align: justify;
+  letter-spacing: ;
+}
 
 .experience-flex {
   display: flex;
@@ -98,7 +103,7 @@ span {
 }
 
 .section {
-  margin-top: 2.4rem;
+  margin-top: 2rem;
   width: 100%;
 }
 

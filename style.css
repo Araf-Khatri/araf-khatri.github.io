@@ -36,17 +36,39 @@ i {
 }
 
 h2 {
-  border-bottom: 2px solid;
+  /* border-bottom: 2px solid; */
   /* text-decoration: underline; */
   /* border-bottom: 1px solid ; */
 }
+
+.section-heading-section {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.section-heading-section .section-heading {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  text-wrap: nowrap;
+}
+
+.section-separator {
+  width: 100%;
+  height: 2px;
+  background-color: #333;
+}
+
 .stack {
   color: #333;
   margin-left: auto;
   font-size: 1.6rem;
 }
 #paper {
-  border-top: 5px solid var(--ResumeLinks);
+  /* border-top: 5px solid var(--ResumeLinks); */
   /* font-size: 16px; */
   width: 995px;
   /* height: 100%; */

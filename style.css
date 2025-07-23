@@ -77,6 +77,10 @@ h2 {
   align-items: center;
   justify-content: space-between;
 }
+.experience-flex .experience-title h4 {
+  display: inline-block;
+  margin: 1px 0 0 2px;
+}
 
 .flex {
   display: flex;

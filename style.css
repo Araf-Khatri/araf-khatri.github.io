@@ -133,6 +133,12 @@ span {
   margin-top: 6px;
   margin-bottom: 1.3rem;
 }
+.project-highlight-container {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 ul {
   margin: 2px 0 0 10px;
   padding-inline-start: 20px;
